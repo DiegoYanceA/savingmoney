@@ -28,42 +28,38 @@ testing/*/obj/
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # Compiled output
-frontend/*/dist
-frontend/*/tmp
-frontend/*/out-tsc
-frontend/*/bazel-out
+dist
+tmp
+out-tsc
+bazel-out
 
 # Node
-frontend/*/node_modules
+node_modules
 npm-debug.log
 yarn-error.log
 
 # IDEs and editors
-frontend/*/.idea/
-frontend/*/.project
-frontend/*/.classpath
-frontend/*/.c9/
+.idea
+.project
+.classpath
+.c9/
 *.launch
 .settings/
 *.sublime-workspace
 
 # Visual Studio Code
-frontend/*/vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
+.vscode
 .history/*
 
 # Miscellaneous
-frontend/*/.angular/cache
-frontend/*/.sass-cache/
-frontend/*/connect.lock
-frontend/*/coverage
-frontend/*/libpeerconnection.log
-frontend/*/testem.log
-frontend/*/typings
+.angular/cache
+.sass-cache/
+connect.lock
+coverage
+libpeerconnection.log
+testem.log
+typings
 
 # System files
-frontend/*/.DS_Store
-frontend/*/Thumbs.db
+.DS_Store
+Thumbs.db
